@@ -29,16 +29,14 @@ const Expenses = (props) => {
   }
 
   return (
-    <ul>
-      <Card className="expenses">
-        <ExpensesFilter
-          selected={filteredYear}
-          onChangeFilter={filterHandleChange}
-        />
+    <Card className="expenses">
+      <ExpensesFilter
+        selected={filteredYear}
+        onChangeFilter={filterHandleChange}
+      />
 
-        <li>{expensesContent}</li>
-      </Card>
-    </ul>
+      {expensesContent}
+    </Card>
   );
 };
 
