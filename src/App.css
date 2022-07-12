@@ -2,6 +2,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background: #39856d;
+}
+
 .App h1 {
   text-align: center;
 }
